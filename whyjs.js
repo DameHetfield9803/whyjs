@@ -16,3 +16,8 @@ I mean there's Typescript, but why not make a better JavaScript without Typescri
     }
 
 })(window);
+
+function print(x){
+    console.log(x);
+    // SINCE JS DOESN'T ALLOW STATIC VARIABLES
+}
