@@ -6,13 +6,31 @@ I mean there's Typescript, but why not make a better JavaScript without Typescri
 (function(window) {
 
     // Selector
+    // Using $$ to prevent clashing with jQuery :(
     window.$$ = function(a) {
         return document.querySelector(a);
     };
 
-    // Console.log(a)
+    /*
+        console.log(a)
+    */
     window.print = function (a){
-        console.log(a);
+        if(a == undefined)
+            console.log("🤡");
+        else
+            console.log(a);
     }
+
+    // if else
+    window.$do = function condition(obj) {
+        for (let i = 0; i < obj.length; i++) {
+          const { when, then } = obj[i];
+          if (when) {
+            return then;
+          }
+        }
+    }
+    
+
 
 })(window);
