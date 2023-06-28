@@ -16,3 +16,19 @@ I mean there's Typescript, but why not make a better JavaScript without Typescri
     }
 
 })(window);
+/*
+I FUCKING HATE JAVASCRIPT WITH A BURNING PASSION 
+*/
+
+function print(string x){
+    console.log(x);
+}
+function print(int x){
+    console.log(x);
+}
+function print(double x){
+    console.log(x);
+}
+function print(float x){
+    console.log(x);
+}
