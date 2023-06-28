@@ -1,6 +1,6 @@
 /*
 whyjs - a better version of JavaScript
-Sometimes I ask myself WHY JavaScript ><
+Sometimes I ask myself WHY JavaScript ><.
 I mean there's Typescript, but why not make a better JavaScript without Typescript?
 */
 (function(window) {
