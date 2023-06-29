@@ -26,9 +26,7 @@ Any undefined or null value will be replaced with a 🤡
     };
 
     // alert
-    window.$$a = function(a) {
-        alert(a);
-    }
+    window.$$a = function(a) {alert(a);}
 
     /*
         console.log(a)
