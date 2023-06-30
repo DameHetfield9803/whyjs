@@ -107,7 +107,28 @@ why js functions starts with _ (underscore)
         this.setAttribute('bind-value', a);
     }
 
-    // Custom style
+    // Localstorage (get & set)
+    /*
+    */
+    window._ls = function(a){
+        var result = "";
+
+        var method = a.method;
+        var key = a.key;
+        var value = a.value;
+
+        // Get
+        if(method == "get" || method == "GET"){
+            result = localStorage.getItem(key);
+            return result;
+        }
+
+        // Set
+        if(method == "set" || method == "SET"){
+            localStorage.setItem(key, value);
+            // Nothing is being returned
+        }
+    }
 
 
 })(window);

@@ -26,3 +26,19 @@ Now when we inspect element, it will look like
 <h1 bind-value="Lemon">Hello</h1>
 */ 
 _find("h1")._bind("Lemon");
+
+
+// Localstorage
+
+// Set
+// _ls({
+//   method: "set",
+//   key: "donut",
+//   value: "chocolate"
+// });
+
+// Get
+// var fromLS = _ls({
+//     method: "GET",
+//     key: "donut "
+//   });
