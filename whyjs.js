@@ -130,5 +130,4 @@ why js functions starts with _ (underscore)
         }
     }
 
-
 })(window);
