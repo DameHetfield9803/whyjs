@@ -31,9 +31,7 @@ why js functions starts with _ (underscore)
     // Alert
     window._a = function(a) {alert(a);}
 
-    /*
-        console.log(a)
-    */
+    // Print / console.log
     window._print = function(a){
         if(a == undefined)
             console.log("🤡");
@@ -110,6 +108,6 @@ why js functions starts with _ (underscore)
     }
 
     // Custom style
-    
+
 
 })(window);
