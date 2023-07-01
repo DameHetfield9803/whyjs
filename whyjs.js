@@ -94,6 +94,32 @@ why js functions starts with _ (underscore)
     //             .catch(error => console.error(error));
     //     }
     // }
+
+    /*HTTP methods
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://example.com/api/v1/posts");
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.send(JSON.stringify({
+      title: "My new post",
+      body: "This is my new post body",
+}));
+
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        // The request was successful.
+        const data = JSON.parse(xhr.responseText);
+        console.log(data);
+  }    
+      else {
+        // The request failed.
+        console.error(xhr.statusText);
+  }
+};
+//IDK IF THIS WILL ACTUALLY WORK - Damien
+    
+    
+    
+    */
     
     // Inner HTML
     // This functions accept HTML passed as string
